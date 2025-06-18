@@ -2,20 +2,45 @@
   "name": "mundofit",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --tunnel",
+    "start:local": "expo start --host localhost",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~52.0.39",
-    "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-native": "0.76.7"
+    "@expo/metro-runtime": "~5.0.4",
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-picker/picker": "2.11.0",
+    "@react-navigation/bottom-tabs": "^7.3.3",
+    "@react-navigation/native": "^7.0.17",
+    "@react-navigation/stack": "^7.2.1",
+    "axios": "^1.8.4",
+    "expo": "^53.0.0",
+    "expo-linear-gradient": "~14.1.4",
+    "expo-network": "~7.1.5",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-calendars": "^1.1312.1",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-picker-select": "^9.3.1",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "~4.10.0",
+    "react-native-svg": "^15.11.2",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-web": "^0.20.0",
+    "xdate": "^0.8.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+    "@babel/core": "^7.26.0"
+  }
 }
